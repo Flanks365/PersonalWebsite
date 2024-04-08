@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# FlanksFolder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Project description
+FlanksFolder is a webapplication at this moment in time designed to store
+my projects and some information about my hobbies. FlanksFolder will have 4 pages the first being a landing page directing the user to 3 other pages
+my experiences in computing, my projects and my hobbies.
 
-In the project directory, you can run:
+## 3. Technologies and resources used
+List technologies (with version numbers), API's, icons, fonts, images, media or data sources, and other resources that were used.
+* HTML5, CSS, JavaScript, React.js
+* NodeJs, mySQL , SQL
 
-### `npm start`
+## 4. Features and improvements for the future
+* Fleshing out the base scructure of the website and the visual layout
+* connecting the SQL database fully to be both giving information for the website to use but also so that the admin(me) can post new information without going into the database
+* a chatbot integration to be used in the experience page or the projects page (tentative)
+* fully transitioning from traditional HTML to React.Js formating 
+* potential consideration for account based system for others to use (may create a completely different web app for that)
+* full deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 5. Project folder contents
+Top level of project folder: 
+* Main.js          # main server.js meant purely to express handle
+* Public folder
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Subfolders and their contents:
+* CSS
+    * /experstyle.css          # experience.html's styling
+    * /frontstyle.css
+* HTML
+    * /experience.html
+    * /frontpage.html
+* Img
+* Js
+    * /client.js           # client javascript when webapp is loaded
